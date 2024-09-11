@@ -6,8 +6,13 @@ export default createGlobalStyle`
         margin:0;
         padding:0;
         box-sizing:border-box;
-        font-family: "Roboto", sans-serif;
+        font-family: "Inter", sans-serif;
         outline: none;
+        text-decoration: none;
+    }
+
+    body{
+        overflow-x: hidden;
     }
     
 `;
