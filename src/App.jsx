@@ -1,6 +1,7 @@
 import React from "react"
 import HomeImg from './assets/img/home.png'
 import ColorLogo from './assets/logo/logo-color.png'
+import WhiteLogo from './assets/logo/logo-white.png'
 import Img1 from './assets/img/img1.png'
 import Img2 from './assets/img/img2.png'
 import Img3 from './assets/img/img3.png'
@@ -15,7 +16,7 @@ import Ico4 from './assets/icons/icon4.png'
 import Ico5 from './assets/icons/icon5.png'
 
 
-import { HomeFixedImg, LogoColor, Header, Info, Hero, DivLeft, DivRight, Images, Section, WtMask, Section2, GMask, Info2, ImgProduct } from './styles'
+import { HomeFixedImg, LogoColor, Header, Info, Hero, DivLeft, DivRight, Images, Section, WtMask, Section2, GMask, Info2, ImgProduct, Footer, DivFooter } from './styles'
 
 function App() {
 
@@ -93,6 +94,22 @@ function App() {
           <p>Tratamento de dependência</p>
         </div>
       </Info2>
+
+      <Footer>
+        <DivFooter>
+          <div>
+            <img src={WhiteLogo} alt="logo branco" />
+          </div>
+          <div>
+            <p>Contato</p>
+            <p>Horário de funcionamento
+              <br></br>Segunda a Sábado - 9h - 18h</p>
+            <p>Número</p>
+          </div>
+        </DivFooter>
+        <p>© 2024 Terapeutas Cannabicos. Todos os direitos reservados</p>
+        <p>Desenvolvido por Freelings Co.</p>
+      </Footer>
     </>
   )
 }

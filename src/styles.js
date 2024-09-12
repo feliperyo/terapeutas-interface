@@ -148,15 +148,17 @@ border-bottom: 17px solid #EF7C00;
 background-color: #EAEAEA;
 display: flex;
 z-index: 999;
-margin: -150px auto 0;
+margin: -150px 11% 0;
 align-items: center;
 justify-content: space-around;
+position: absolute;
 
 div{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 48px;
+    z-index: 999;
 }
 
 p{
@@ -165,5 +167,43 @@ p{
     font-weight: 400;
     max-width: 199px;
     text-align: center;
+    z-index: 999;
+}
+`
+
+export const Footer = styled.footer`
+background: #678E2D;
+width: 100%;
+z-index: -999;
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 525px;
+padding-top: 200px;
+
+color: #FFF;
+font-size: 20px;
+font-weight: 100;
+
+img{
+    width: 518px;
+}
+`
+
+export const DivFooter = styled.div`
+display: flex;
+align-items: center;
+gap: 129px;
+
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+p{
+    width: 425px;
+    font-size: 22px;
+    font-weight: 400;
 }
 `
